@@ -1,0 +1,18 @@
+# Secrets / local environment
+.env
+
+# Experiment outputs
+checkpoints/
+results/
+wandb/
+logs/
+flame/exp/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Editable installs of the vendored fla fork / flame, and Triton/Inductor caches
+*.egg-info/
+build/
+torchinductor_*/

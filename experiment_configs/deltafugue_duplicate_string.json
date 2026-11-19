@@ -1,0 +1,18 @@
+{
+    "task": "duplicate_string",
+    "model_name": "deltafugue",
+    "num_blocks": 2,
+    "num_heads": 4,
+    "model_dim": 128,
+    "batch_size": 256,
+    "num_steps": 25000,
+    "print_steps": 1000,
+    "learning_rate": 0.002,
+    "early_stop_threshold": 0.95,
+    "use_glu": false,
+    "seed": 1,
+    "tape_size": 60,
+    "dropout_rate": 0.0,
+    "wd": 0.01,
+    "warmup_steps": 10000
+}
